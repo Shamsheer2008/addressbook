@@ -11,24 +11,7 @@
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <easyb.version>1.4</easyb.version>
-        <plugin>
-   <groupId>org.codehaus.mojo</groupId>
-   <artifactId>cobertura-maven-plugin</artifactId>
-   <version>2.7</version>
-   <configuration>
-       <formats>
-           <format>html</format>
-           <format>xml</format>
-       </formats>
-       <reportSets>
-           <reportSet>
-               <reports>
-                   <report>cobertura</report>
-               </reports>
-           </reportSet>
-       </reportSets>
-   </configuration>     
-</plugin>
+       <cobertura.version>2.7</cobertura.version>
         <!-- A workaround for a bug in PMD -->
         <sourceJdk>1.8</sourceJdk>
         <targetJdk>1.8</targetJdk>
